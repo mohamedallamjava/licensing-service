@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: config-server
+server:
+  native:
+    search-locations: classpath:/config
+  port: 8071
